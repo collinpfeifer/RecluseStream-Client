@@ -2,6 +2,8 @@
 
 Recluse Stream is a single-page streaming web app developed with the [React](https://reactjs.org/), [Node](https://nodejs.org/en/), [Redux](https://redux.js.org/) javascript frameworks, and a variety of other dependencies
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e2f2c380-eec1-4c2e-b411-d136a1da0cd3/deploy-status)](https://app.netlify.com/sites/recluse-stream/deploys)
+
 ## Features
 
 Recluse allows you to stream from popular streaming and recording service [OBS](https://obsproject.com/) to the web app directly through the [Node Media Server](https://github.com/illuspas/Node-Media-Server), a popular backend Node powered video streaming service and with a MongoDB-clone JSON database.
