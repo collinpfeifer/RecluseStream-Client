@@ -31,7 +31,7 @@ const StreamShow = ({ match, fetchStream, stream }) => {
 
     player = flv.createPlayer({
       type: 'flv',
-      url: `${process.env.REACT_APP_RMTP}/live/${match.params.id}.flv`,
+      url: `${process.env.REACT_APP_RTMP}/live/${match.params.id}.flv`,
     });
     player.attachMediaElement(videoStream.current);
     player.load();
